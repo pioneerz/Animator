@@ -1,6 +1,5 @@
 package com.example.administrator.animatortest;
 
-import android.animation.ObjectAnimator;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -48,13 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
         } catch (ActivityNotFoundException e) {
-            Log.e("zangdianbin","error = " + e.getMessage());
+            Log.e("author","error = " + e.getMessage());
         }
-
-        /*ObjectAnimator animator = ObjectAnimator.ofInt(mCircleView, "color", 0xffff0000, 0xff0000ff);
-        animator.setEvaluator(new HsvEvaluator());
-        animator.setDuration(2000);
-        animator.start();*/
-
     }
 }

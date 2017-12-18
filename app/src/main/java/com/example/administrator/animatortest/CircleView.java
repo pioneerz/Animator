@@ -56,8 +56,8 @@ public class CircleView extends View {
         mHeight = ta.getDimension(R.styleable.custom_height, 10f);
         ta.recycle();
 
-        Log.e("zangdianbin","width = " + mWidth);
-        Log.e("zangdianbin","height = " + mHeight);
+        Log.e("author","width = " + mWidth);
+        Log.e("author","height = " + mHeight);
 
         float min = Math.min(mWidth,mHeight);
         mRadius = min/2;
