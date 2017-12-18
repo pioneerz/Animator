@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_property_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Value Animator"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button_property_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="View Property Animator"/>
+
+    <Button
+        android:id="@+id/button_property_object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Object Animator"/>
+
+    <Button
+        android:id="@+id/button_property_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Animator Set"/>
+
+    <com.example.administrator.animatortest.CircleView
+        android:id="@+id/circle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:width="50dp"
+        custom:height="50dp"/>
+
+</LinearLayout>

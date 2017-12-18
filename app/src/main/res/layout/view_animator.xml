@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_view_alpha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alpha"
+        android:textAllCaps="false"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/button_view_translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Translate"
+        android:textAllCaps="false"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/button_view_scale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scale"
+        android:textAllCaps="false"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/button_view_rotate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rotate"
+        android:textAllCaps="false"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/button_view_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animation_set"
+        android:textAllCaps="false"
+        android:textSize="16sp"/>
+
+    <com.example.administrator.animatortest.CircleView
+        android:id="@+id/custom_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:width="50dp"
+        custom:height="50dp"/>
+
+</LinearLayout>
